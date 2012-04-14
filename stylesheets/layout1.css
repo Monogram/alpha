@@ -1,0 +1,165 @@
+/**
+ * 100% height layout with header and footer
+ * ----------------------------------------------
+ * Feel free to copy/use/change/improve
+ */
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+div#container {
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+        background: url('../materials/page01_background logo_B set.png');
+        background-repeat: repeat-x;
+        background-position: center 265px;
+        background-color: #D8AD84;
+	
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+  min-width: 1280px;
+  width:100%;
+}
+
+div#header {
+  height: 265px;
+  width: 100%;
+  background-color: white;
+}
+#icon_bar{
+  height: 225px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../materials/page02_background top logo-13.png');
+  background-repeat: no-repeat;
+}
+#top_bar{
+  height: 40px;
+  background-color: #7E4300;
+  min-width: 1280px;
+  width:100%;
+}
+#sections{
+  height: 40px;
+  width: 1280px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+}
+
+div#content {
+	padding-bottom:120px; /* bottom padding for footer */
+        min-height: 580px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#footer {
+	position:absolute;
+	width:100%;
+	bottom:0; /* stick to bottom */
+        background: url('../materials/page01_background logo_B set_02.png');
+        background-repeat: repeat-x;
+        background-position:  center -523px;
+        background-color:  #D8AD84;
+        height: 120px;
+}
+div#footer #copyright{
+  width: 1280px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  margin-top: 90px;
+  color: #7E4300;
+  font-size: 10px;
+}
+#cover{
+  background-color: #D8AD84;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  min-height: 640px;
+}
+#cover img{
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  margin-top: -206px;
+}
+div.sections_btn{
+  float: right;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+  font-family: Myriad Pro, Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  color: white;
+}
+div.sections_btn.selected{
+  color: #0AA245;
+}
+div.sections_btn.override{
+  color: white;
+}
+div.sections_btn:hover{
+  color: #0AA245 !important;
+}
+div.icon_img{
+  float: right;
+  margin-left: 91px;
+  margin-right: 98px;
+  width: 86px;
+  height: 171px;
+  margin-top:54px;
+}
+div#contact_us_img.selected{
+  background-image: url("../materials/page02_content logo-09.png")
+}
+div#contact_us_img{
+  background-image: url("../materials/page02_content logo-10.png")
+}
+div#news_img.selected{
+  background-image: url("../materials/page02_content logo-07.png")
+}
+div#news_img{
+  background-image: url("../materials/page02_content logo-08.png")
+}
+
+div#product_img.selected{
+  background-image: url("../materials/page02_content logo-11.png")
+}
+div#product_img{
+  background-image: url("../materials/page02_content logo-12.png")
+}
+
+div#brand_vision_img.selected{
+  background-image: url("../materials/page02_content logo-05.png")
+}
+div#brand_vision_img{
+  background-image: url("../materials/page02_content logo-06.png")
+}
+div#icon_container{
+  left: 278px;
+  top: 46px;
+}
+div.sections_btn.margin_right_0{
+  margin-right: 0px;
+}
+div.sections_btn.margin_120{
+  margin-right: 120px;
+  margin-left: 120px;
+}
+div#contact_us_img{
+  margin-right:0px;
+}
