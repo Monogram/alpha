@@ -1,0 +1,78 @@
+#product .left_content {
+  float: left;
+  padding-left: 50px;
+}
+
+#product .left_content .name {
+  color: #0AA245;
+  font-family: Century Gothic;
+  font-size: 60px;
+  padding: 10px 0;
+}
+
+#product .left_content .gallery .main {
+  border: 1px #7E4300 solid;
+  height: 340px;
+  width: 325px;
+}
+
+#product .left_content .gallery .previews {
+  padding-top: 10px;
+}
+
+#product .left_content .gallery .previews .preview {
+  border: 1px #7E4300 solid;
+  float: left;
+  margin-right: 10px;
+}
+
+#product .left_content .gallery .preview img {
+  height: 100px;
+  width: 100px;
+}
+
+#product .right_content {
+  float: left;
+  padding-left: 50px;
+}
+
+#product .right_content .content {
+  height: 560px;
+  position: absolute;
+}
+
+#product .right_content .title {
+  color: #0AA245;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 45px 0 10px;
+}
+
+#product .right_content .description {
+  color: #7E4300;
+  font-size: 20px;
+}
+
+#product .right_content .features_and_specification {
+  bottom: 0;
+  padding-top: 20px;
+  position: absolute;
+}
+
+#product .right_content .features_and_specification div {
+  color: #7E4300;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top : 20px;
+}
+
+#product .right_content .features_and_specification ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#product .right_content .features_and_specification ul li {
+  color: #7E4300;
+  font-size: 20px;
+  text-indent: 10px;
+}

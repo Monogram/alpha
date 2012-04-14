@@ -1,0 +1,26 @@
+#products .title {
+  color: #0AA245;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0 30px 50px;
+}
+
+#products .products {
+  padding-left: 280px;
+}
+
+#products .products .product {
+  float: left;
+  padding-left: 30px;
+  text-align: center;
+}
+
+#products .products .product img {
+  border: 1px #7E4300 solid;
+  height: 300px;
+  width: 300px;
+}
+
+#products .products .product .name {
+  font-size: 25px;
+}
