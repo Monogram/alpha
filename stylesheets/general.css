@@ -61,6 +61,7 @@ body #container{
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 20px;
   position: relative;
 }
 #bottom{
@@ -81,3 +82,4 @@ body #container{
   margin-right: auto;
   text-align: right;
 }
+

@@ -8,12 +8,14 @@
       $("#content").hide();
       $("#footer").hide();
     })
+
     $("#cover img").live("click", function(e){
       $("#cover").hide();
       $("#header").show();
       $("#content").show();
       $("#footer").show();
     });
+
     $("div.sections_btn").live("click", function(e){
        var target = e.currentTarget;
        if($(target).hasClass("selected")) return;

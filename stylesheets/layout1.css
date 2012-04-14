@@ -19,7 +19,7 @@ div#container {
         background-repeat: repeat-x;
         background-position: center 265px;
         background-color: #D8AD84;
-	
+
 	height:auto !important; /* real browsers */
 	height:100%; /* IE6: treaded as min-height*/
 
@@ -167,6 +167,80 @@ div.sections_btn.margin_3{
 div.sections_btn.margin_4{
   margin-right: 110px;
 }
+
 div#contact_us_img{
   margin-right:37px;
+}
+
+.sections_btn {
+  cursor: pointer;
+}
+
+.name-logo {
+  background-image: url("../materials/company name logo-15.png");
+  height: 150px;
+  width: 640px;
+  display: block;
+  position: relative;
+  left: -90px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/* Brand Vision */
+
+#brand-vision {
+  margin-left: 150px;
+  width: 940px;
+  color: #873E00;
+}
+
+#brand-vision p{
+  font-weight: 300;
+}
+
+
+/* Contact Us */
+
+#contact-us {
+  margin-left: 150px;
+  width: 940px;
+  color: #873E00;
+  font-weight: 300;
+}
+
+
+/* News */
+
+#news {
+  margin-left: 150px;
+  width: 940px;
+  color: #873E00;
+  font-weight: 300;
+}
+
+.tdc-logo{
+  background-image: url("../materials/TDC-16.png");
+  display: block;
+  height: 114px;
+  width: 360px;
+  position: relative;
+  top: -14px;
+}
+
+#news td{
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+#news .table-heading {
+  font-size: 21px;
+  padding-right: 55px;
+  font-weight: bold;
 }
