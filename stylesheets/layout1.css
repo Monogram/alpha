@@ -8,6 +8,8 @@ html,body {
 	margin:0;
 	padding:0;
 	height:100%;
+        font-family: Myriad Pro-Regular, Myriad, Liberation Sans, Nimbus Sans L, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: lighter;
 }
 
 div#container {
@@ -103,11 +105,11 @@ div.sections_btn{
   margin-left: 100px;
   margin-right: 100px;
   font-size: 18px;
-  font-family: Myriad Pro, Gill Sans, Gill Sans MT, Calibri, sans-serif;
   color: white;
 }
 div.sections_btn.selected{
   color: #0AA245;
+  font-weight: 200;
 }
 div.sections_btn.override{
   color: white;
