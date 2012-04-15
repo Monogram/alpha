@@ -220,7 +220,7 @@ div#contact_us_img{
 
 #news {
   margin-left: 150px;
-  width: 940px;
+  width: 1100px;
   color: #873E00;
   font-weight: 300;
 }
@@ -230,8 +230,6 @@ div#contact_us_img{
   display: block;
   height: 114px;
   width: 360px;
-  position: relative;
-  top: -14px;
 }
 
 #news td{
@@ -243,4 +241,15 @@ div#contact_us_img{
   font-size: 21px;
   padding-right: 55px;
   font-weight: bold;
+}
+
+#news .static {
+  width: 150px;
+  display:inline-block;
+  float:left;
+}
+
+#scrollable-news {
+  width: 850px;
+  height: 400px;
 }
