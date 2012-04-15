@@ -22,5 +22,6 @@
 }
 
 #products .products .product .name {
+  color: #7E4300;
   font-size: 25px;
 }
