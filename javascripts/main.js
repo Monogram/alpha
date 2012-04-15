@@ -18,7 +18,6 @@
 
     $("div.sections_btn").live("click", function(e){
        var target = e.currentTarget;
-       if($(target).hasClass("selected")) return;
        var url = $(target).attr("target");
        $("#content").load(url);
       $(".sections_btn").removeClass("override selected");
