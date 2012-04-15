@@ -38,6 +38,7 @@
 
 #product .right_content .content {
   height: 560px;
+  width: 900px;
   position: absolute;
 }
 
