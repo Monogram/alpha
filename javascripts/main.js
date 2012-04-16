@@ -9,6 +9,14 @@
       $("#footer").hide();
     })
 
+    $("#home_icon").live("click", function(e) {
+      $("#content").load("contents/brand_vision.html");
+      $("#icon_bar div").removeClass('selected');
+      $("#brand_vision_img").addClass("selected");
+      $("#sections div").removeClass("selected");
+      $("#sections div").last().addClass("selected");
+    });
+
     $("#cover img").live("click", function(e){
       $("#cover").hide();
       $("#header").show();
